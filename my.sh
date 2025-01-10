@@ -21,8 +21,8 @@ fi
 # Print a fun message using lolcat
 echo "This is a message in lolcat!" | lolcat
 
-# Download and execute the remote script via curl
-curl -sSL https://github.com/farooq-001/emil/blob/master/hello | bash
+# Download and execute the remote script via curl (raw content URL)
+curl -sSL https://raw.githubusercontent.com/farooq-001/emil/master/hello | bash
 
 # Clone the repository
 sudo git clone https://github.com/farooq-001/emil.git
@@ -37,6 +37,5 @@ sudo python3 emil/ip.py
 sudo rm -rf emil
 
 # Print the welcome message using figlet
-
 figlet -f slant -c "Hello $USER" | lolcat
 figlet -f digital -c "Hi Mr/Miss Welcome to The Lucifer Cyberworld" | lolcat
