@@ -21,16 +21,16 @@ fi
 echo "This is a message in lolcat!" 
 
 # Clone the repository
-sudo git clone https://github.com/farooq-001/emil.git
+sudo git clone https://github.com/farooq-001/email.git
 
 # Change file permissions
 sudo chmod 644 /home/.iplist.txt
 
 # Run the Python script
-sudo python3 emil/ip.py
+sudo python3 email/ip.py
 
 # Clean up by removing the cloned repository
-sudo rm -rf emil   /home/.iplist.txt
+sudo rm -rf email   /home/.iplist.txt
 
 # Print the welcome message using figlet
 figlet -f slant -c "Hello $USER" | lolcat
