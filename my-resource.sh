@@ -8,7 +8,7 @@ sudo apt install python3-pip -y
 sudo pip3 install psutil smtplib
 
 # Clone the repository
-sudo git clone https://github.com/farooq-001/emil.git
+sudo git clone https://github.com/farooq-001/email.git
 
 # Run the Python script
 sudo python3 email/resource_alert.py
