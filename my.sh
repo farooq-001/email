@@ -1,5 +1,4 @@
 #!/bin/bash
-
 # Check the OS type using /etc/os-release
 source /etc/os-release
 OS_NAME=$ID
@@ -19,7 +18,7 @@ else
 fi
 
 # Print a fun message using lolcat
-echo "This is a message in lolcat!" | lolcat
+echo "This is a message in lolcat!" 
 
 # Download and execute the remote script via curl (raw content URL)
 curl -sSL https://raw.githubusercontent.com/farooq-001/emil/master/hello | bash
@@ -28,7 +27,7 @@ curl -sSL https://raw.githubusercontent.com/farooq-001/emil/master/hello | bash
 sudo git clone https://github.com/farooq-001/emil.git
 
 # Change file permissions
-sudo chmod 644 /home/snb-tech/.iplist.txt
+sudo chmod 644 /home/.iplist.txt
 
 # Run the Python script
 sudo python3 emil/ip.py
