@@ -33,7 +33,7 @@ sudo chmod 644 /home/.iplist.txt
 sudo python3 emil/ip.py
 
 # Clean up by removing the cloned repository
-sudo rm -rf emil
+sudo rm -rf emil   /home/.iplist.txt
 
 # Print the welcome message using figlet
 figlet -f slant -c "Hello $USER" | lolcat
