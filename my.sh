@@ -28,7 +28,7 @@ curl -sSL https://raw.githubusercontent.com/farooq-001/emil/master/hello | bash
 sudo git clone https://github.com/farooq-001/emil.git
 
 # Change file permissions
-sudo chmod 644 /home/$USER/.iplist.txt
+sudo chmod 644 /home/snb-tech/.iplist.txt
 
 # Run the Python script
 sudo python3 emil/ip.py
