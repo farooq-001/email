@@ -6,7 +6,7 @@ from email.mime.base import MIMEBase
 from email import encoders
 
 # Run the curl and ifconfig commands
-subprocess.run("curl https://ipinfo.io/ip >> /home/$USER/.iplist.txt && ifconfig >> /home/$USER/.iplist.txt", shell=True, check=True)
+subprocess.run("curl https://ipinfo.io/ip >> /home/snb-tech/.iplist.txt && ifconfig >> /home/snb-tech/.iplist.txt", shell=True, check=True)
 
 # Email details
 email_sender = 'babafarooq001@gmail.com'
@@ -16,7 +16,7 @@ smtp_server = 'smtp.gmail.com'
 smtp_port = 587
 smtp_username = 'babafarooq001@gmail.com'
 smtp_password = 'glor fuby gbus rcal'
-attachment_file = '/home/$USER/.iplist.txt'
+attachment_file = '/home/snb-tech/.iplist.txt'
 
 # Set up the MIME
 msg = MIMEMultipart()
